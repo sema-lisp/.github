@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://sema-lang.com/docs/
+    about: Language guide, standard library, and internals — check here first.
+  - name: Try it in the playground
+    url: https://sema.run
+    about: Reproduce or explore behavior in the browser, no install needed.
+  - name: Report a security vulnerability
+    url: https://github.com/sema-lisp/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately via the repo's Security tab, not as a public issue.

@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in Sema behaves incorrectly
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What went wrong, and what you expected instead. Keep it brief.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: The smallest Sema program or command that triggers it. Paste the code and how you ran it (`sema file.sema`, `sema -e "..."`, REPL, etc.).
+      render: scheme
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `sema --version`.
+      placeholder: "sema 1.28.1"
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: OS and architecture (e.g. macOS 15 arm64, Ubuntu 24.04 x86_64, WASM/playground).
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Error output, stack traces, or context. Optional.
+    validations:
+      required: false
