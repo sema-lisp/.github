@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://sema.run"><img src="https://img.shields.io/badge/try_it-sema.run-c8a855?style=flat" alt="Playground"></a>
   <a href="https://sema-lang.com/docs/"><img src="https://img.shields.io/badge/docs-sema--lang.com-c8a855?style=flat" alt="Docs"></a>
-  <a href="https://github.com/HelgeSverre/sema"><img src="https://img.shields.io/badge/source-HelgeSverre%2Fsema-c8a855?style=flat" alt="Source"></a>
+  <a href="https://github.com/sema-lisp/sema"><img src="https://img.shields.io/badge/source-sema--lisp%2Fsema-c8a855?style=flat" alt="Source"></a>
 </p>
 
 ---
@@ -32,7 +32,7 @@ Sema is a Scheme-like Lisp where **prompts are s-expressions**, **conversations 
 - **[Playground](https://sema.run)** — run Sema in the browser, no install
 - **[Documentation](https://sema-lang.com/docs/)** — language guide, stdlib, internals
 - **[For Agents](https://sema-lang.com/docs/for-agents)** — orienting a coding agent in a Sema codebase
-- **[Source & releases](https://github.com/HelgeSverre/sema)** — the core language, VM, and toolchain
+- **[Source & releases](https://github.com/sema-lisp/sema)** — the core language, VM, and toolchain
 
 ### What lives here
 

@@ -4,13 +4,13 @@ Thanks for your interest in Sema — a Lisp where LLM agents are language primit
 
 ## Ground rules
 
-- **No CLA, no sign-off required.** Contributions are accepted under the project's [MIT license](https://github.com/HelgeSverre/sema/blob/main/LICENSE). By opening a pull request, you agree that your contribution may be distributed under those terms.
+- **No CLA, no sign-off required.** Contributions are accepted under the project's [MIT license](https://github.com/sema-lisp/sema/blob/main/LICENSE). By opening a pull request, you agree that your contribution may be distributed under those terms.
 - **Be respectful.** This project follows a [Code of Conduct](CODE_OF_CONDUCT.md).
 - **Discussion happens in Issues.** Open an issue to report a bug or propose a feature before investing in a large change, so we can agree on the approach.
 
 ## AI-assisted contributions are welcome
 
-Sema is an agent-native language — it ships an [`AGENTS.md`](https://github.com/HelgeSverre/sema/blob/main/AGENTS.md) precisely so coding agents can work in this codebase. Using an AI coding assistant to write, review, or explore a contribution is explicitly encouraged. Point your agent at `AGENTS.md`; it's the canonical build/test/architecture guide.
+Sema is an agent-native language — it ships an [`AGENTS.md`](https://github.com/sema-lisp/sema/blob/main/AGENTS.md) precisely so coding agents can work in this codebase. Using an AI coding assistant to write, review, or explore a contribution is explicitly encouraged. Point your agent at `AGENTS.md`; it's the canonical build/test/architecture guide.
 
 What we ask in return, so AI assistance raises quality instead of noise:
 
@@ -23,7 +23,7 @@ We don't require you to disclose tool use, and we don't treat AI-assisted PRs di
 
 ## Development workflow
 
-The canonical guide is [`AGENTS.md`](https://github.com/HelgeSverre/sema/blob/main/AGENTS.md). In short:
+The canonical guide is [`AGENTS.md`](https://github.com/sema-lisp/sema/blob/main/AGENTS.md). In short:
 
 ```bash
 make build      # dev build
